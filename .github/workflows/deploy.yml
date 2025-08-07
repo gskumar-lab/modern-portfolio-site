@@ -27,3 +27,4 @@ jobs:
           --exclude ".github/*" \
           --delete \
           --acl public-read
+
