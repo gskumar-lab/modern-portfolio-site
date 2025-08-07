@@ -26,5 +26,5 @@ jobs:
           --exclude ".git/*" \
           --exclude ".github/*" \
           --delete \
-          --acl public-read
+          
 
