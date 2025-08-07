@@ -1,0 +1,203 @@
+/* dark-mode.css */
+
+/* Base page, wrapper & main content */
+body.dark-mode,
+body.dark-mode .site-wrapper,
+body.dark-mode .content {
+    background-color: #121212 !important;
+    color: #e0e0e0 !important;
+}
+
+/* All "white-bg" sections */
+body.dark-mode .white-bg {
+    background-color: #1e1e1e !important;
+}
+
+/* Header (desktop & mobile) */
+body.dark-mode header.left,
+body.dark-mode .mobile-header {
+    background-color: #1b1b1b !important;
+}
+
+/* Hero section & its overlay */
+body.dark-mode .hero {
+    background-color: #121212 !important;
+}
+body.dark-mode .hero .overlay {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Any element with .background (e.g. custom colored blocks) */
+body.dark-mode .background {
+    background-color: #1b1b1b !important;
+}
+
+/* Shadows—tone them down for dark mode */
+body.dark-mode .shadow-blue,
+body.dark-mode .shadow-dark {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Vertical nav menu links */
+body.dark-mode .vertical-menu li a {
+    color: #e0e0e0 !important;
+}
+body.dark-mode .vertical-menu li a.active:before {
+    background-color: #90caf9 !important;
+}
+body.dark-mode .vertical-menu li a:hover {
+    color: #90caf9 !important;
+}
+
+/* Buttons (outline & solid) */
+body.dark-mode .btn-outline-secondary {
+    color: #e0e0e0;
+    border-color: #555;
+}
+body.dark-mode .btn-outline-secondary:hover {
+    background-color: #333;
+    border-color: #777;
+}
+body.dark-mode .btn-dark {
+    background-color: #333 !important;
+    border-color: #444 !important;
+    color: #e0e0e0 !important;
+}
+body.dark-mode .btn-primary {
+    background-color: #424242 !important;
+    border-color: #5a5a5a !important;
+}
+body.dark-mode .btn-info {
+    background-color: #1e88e5 !important;
+    border-color: #1565c0 !important;
+}
+
+/* Links */
+body.dark-mode a {
+    color: #90caf9 !important;
+}
+body.dark-mode a:hover {
+    color: #bb86fc !important;
+}
+
+/* Portfolio item masks */
+body.dark-mode .portfolio-item .mask {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Icons (Font Awesome, Simple Line) */
+body.dark-mode i,
+body.dark-mode .social-icons a {
+    color: #e0e0e0 !important;
+}
+body.dark-mode .social-icons a:hover {
+    color: #90caf9 !important;
+}
+
+/* Custom scrollbars (if used) */
+body.dark-mode .mCSB_scrollTools .mCSB_draggerRail {
+    background-color: rgba(255,255,255,0.1) !important;
+}
+body.dark-mode .mCSB_scrollTools .mCSB_dragger_bar {
+    background-color: rgba(255,255,255,0.3) !important;
+}
+
+/* Footer grouping (already transparent, so just ensure text) */
+body.dark-mode .footer,
+body.dark-mode .footer .copyright {
+    color: #aaa !important;
+}
+
+/* -------------------------------------------------------------------
+ *   Ensure all headings adopt light text in dark mode
+ *   ------------------------------------------------------------------- */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #ffffff !important;
+}
+
+/* Section titles (e.g. <h3 class="section-title">…) */
+body.dark-mode .section-title {
+    color: #ffffff !important;
+}
+
+/* Section title underline/dot (if your theme uses ::after or border) */
+body.dark-mode .section-title::after {
+    background-color: #90caf9 !important;
+}
+
+/* Override any utility .text-dark classes */
+body.dark-mode .text-dark {
+    color: #e0e0e0 !important;
+}
+
+/* If you have any small muted text (e.g. .text-muted) that’s too light,
+ *   brighten it just a bit: */
+body.dark-mode .text-muted {
+    color: #aaaaaa !important;
+}
+
+
+
+/* Add to dark-mode.css */
+
+/* Single portfolio page specific styles */
+body.dark-mode .single-portfolio {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .single-portfolio .portfolio-info {
+    color: #aaaaaa !important;
+}
+
+body.dark-mode .single-portfolio .portfolio-info i {
+    color: #90caf9 !important;
+}
+
+body.dark-mode .single-portfolio .portfolio-content {
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .single-portfolio .archive-header {
+    color: #ffffff !important;
+}
+
+body.dark-mode .single-portfolio .portfolio-info a {
+    color: #90caf9 !important;
+}
+
+body.dark-mode .single-portfolio .portfolio-info a:hover {
+    color: #bb86fc !important;
+}
+
+/* Portfolio image container */
+body.dark-mode .single-portfolio img {
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* List items in portfolio info */
+body.dark-mode .portfolio-info li {
+    color: #aaaaaa !important;
+}
+
+/* Ensure all text in the portfolio section is visible */
+body.dark-mode .single-portfolio h3,
+body.dark-mode .single-portfolio h4,
+body.dark-mode .single-portfolio p {
+    color: #e0e0e0 !important;
+}
+
+/* Links in the portfolio section */
+body.dark-mode .single-portfolio a {
+    color: #90caf9 !important;
+}
+
+body.dark-mode .single-portfolio a:hover {
+    color: #bb86fc !important;
+}
