@@ -25,7 +25,9 @@
 
 <body>
 
+
 <!-- preloader -->
+<!--
 <div id="preloader">
 	<div class="outer">
 		<div class="spinner">
@@ -34,6 +36,7 @@
 		</div>
 	</div>
 </div>
+-->
 
 <!-- site wrapper -->
 <div class="site-wrapper">
@@ -94,45 +97,89 @@
 	</header>
 
 	<!-- main content area -->
-	<!-- main content area -->
 <main class="content float-right">
 
     <!-- single portfolio -->
     <section class="single-portfolio background-white rounded padding-50 shadow-blue mt-0">
-        <h2 class="archive-header">CI/CD Pipeline with AWS & GitHub Actions</h2>
+        <h2 class="archive-header">Three-Tier Architecture on AWS using Terraform</h2>
 
         <!-- portfolio info -->
-        <ul class="list-inline portfolio-info mb-0 mt-4">
+
+			<!--
+
             <li class="list-inline-item"><i class="icon-user"></i>Personal Project</li>
             <li class="list-inline-item"><i class="icon-calendar"></i>2024–2025</li>
             <li class="list-inline-item"><i class="icon-link"></i>
-                <a href="https://github.com/username/devops-pipeline" target="_blank">View on GitHub</a>
+                <a href="https://github.com/gskumar-lab/3-tier-app-infra-terraform" target="_blank">View on GitHub</a>
             </li>
+
             <li class="list-inline-item"><i class="icon-link"></i>
                 <a href="https://devops-pipeline-demo.example.com" target="_blank">Live Demo</a>
             </li>
-            <li class="list-inline-item"><i class="icon-layers"></i><strong>Tech Stack:</strong> GitHub Actions, AWS EC2, Docker, ECR, CodeDeploy, Flask, NGINX</li>
-        </ul>
+
+            -->
+
+            <li class="list-inline-item"><i class="icon-layers"></i><strong> Tech Stack:</strong> Terraform, AWS (EC2, VPC, IAM, RDS - Mysql, R53, Cloudfront, S3, AWS backup, NAT Gateway)</li>
+
+
+        <div class="spacer" data-height="40"></div>
+
+        <!-- Buttons -->
+			<div class="d-flex flex-wrap justify-content-center gap-3">
+
+			<a href="https://github.com/gskumar-lab/3-tier-app-infra-terraform" target="_blank" class="btn btn-primary m-2">
+				<i class="fab fa-github mr-2"></i> view on GitHub
+			</a>
+			<!--
+			<a href="https://www.demo.com/demo" target="_blank" class="btn btn-default m-2">
+				<i class="fa-solid fa-laptop mr-2"></i> Demo link
+			</a>
+			-->
+			</div>
 
         <div class="spacer" data-height="40"></div>
 
         <!-- portfolio image -->
-        <img src="images/portfolio/1.jpg" alt="CI/CD Pipeline Project Screenshot">
+        <img src="images/portfolio/1.jpg" alt="Three-Tier Architecture on AWS using Terraform">
 
         <!-- portfolio content -->
         <div class="portfolio-content mt-5">
             <h3>Overview</h3>
-            <p>This project demonstrates a production-ready CI/CD pipeline using GitHub Actions and AWS services to automate the deployment of a containerized Flask web application.</p>
+            <p>This project implements a production-grade three-tier architecture on AWS using Infrastructure as Code with Terraform. The solution addresses the need for highly available, scalable, and secure cloud infrastructure with built-in disaster recovery capabilities. The architecture separates concerns across web, application, and database tiers while implementing security best practices like private subnets, bastion hosts, and IAM role-based access.</p>
 
-            <p>The pipeline performs automated testing, builds a Docker image, pushes it to Amazon ECR, and deploys it to an EC2 instance via AWS CodeDeploy. NGINX is configured as a reverse proxy for serving the application securely.</p>
-
-            <p>This setup emphasizes zero-downtime deployment, modular pipeline stages, and version-controlled infrastructure — core DevOps principles that support agility and scalability in real-world projects.</p>
-
+            <!--
             <div class="spacer" data-height="40"></div>
+			-->
+			<div class="project-features">
+				<h3>Key Features</h3>
+				<ul>
+				<li><strong>High Availability</strong>: Deployed across 2 Availability Zones with auto-scaling capabilities</li>
+				<li><strong>Disaster Recovery</strong>: Implemented in a secondary region using AWS Backup, CloudFront, and Route53</li>
+				<li><strong>Secure Access</strong>: Private subnets with controlled access via Bastion Host and IAM roles</li>
+				<li><strong>Automated Backups</strong>: Regular snapshots and backups using AWS Backup service</li>
+				<li><strong>Infrastructure as Code</strong>: Fully reproducible environment defined in Terraform</li>
+				</ul>
+			</div>
 
             <h3>Architecture Diagram</h3>
-            <img src="images/background-1.jpg" alt="CI/CD Architecture Diagram">
+            <img src="images/portfolio/architecture-1.jpg" alt="Three-Tier Architecture on AWS using Terraform">
         </div>
+
+        <div class="spacer" data-height="40"></div>
+
+        <!-- Buttons -->
+		<div class="d-flex flex-wrap justify-content-center gap-3">
+
+		<a href="https://github.com/gskumar-lab/3-tier-app-infra-terraform" target="_blank" class="btn btn-primary m-2">
+			<i class="fab fa-github mr-2"></i> view on GitHub
+		</a>
+		<!--
+		<a href="https://www.demo.com/demo" target="_blank" class="btn btn-default m-2">
+			<i class="fa-solid fa-laptop mr-2"></i> Demo link
+		</a>
+		-->
+		</div>
+
     </section>
 
 </main>
