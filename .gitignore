@@ -1,1 +1,57 @@
-project-template.html  //template file
+
+#project template file
+*template.html
+debug.log
+
+# Common ignores
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.bak
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.class
+*.jar
+*.war
+*.ear
+*.hs_err_pid*
+
+# Dependency directories
+node_modules/
+vendor/
+bower_components/
+.pnp
+.pnp.js
+
+# Build directories
+dist/
+build/
+out/
+target/
+bin/
+*.exe
+*.dll
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.venv
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+Thumbs.db
+ehthumbs.db
