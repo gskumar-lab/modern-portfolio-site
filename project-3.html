@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>GSKumar - Cloud - Devops engineer</title>
+	<meta name="description" content="GSKumar - Cloud - Devops engineer">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+	<link rel="stylesheet" href="css/dark-mode.css">
+
+</head>
+
+<body>
+
+
+<!-- site wrapper -->
+<div class="site-wrapper">
+
+	<!-- mobile header -->
+	<div class="mobile-header py-2 px-3 mt-4">
+		<button class="menu-icon mr-2">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<a href="index.html" class="logo"><img src="images/logo.png" alt="GSKumar" /></a>
+		<a href="index.html" class="site-title dot ml-2">GSKumar</a>
+	</div>
+
+	<!-- header -->
+	<header class="left float-left shadow-dark" id="header">
+		<button type="button" class="close" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="header-inner d-flex align-items-start flex-column">
+			<a href="index.html"><img src="images/logo.png" alt="GSKumar" /></a>
+			<a href="index.html" class="site-title dot mt-3">GSKumar</a>
+			<span class="site-slogan">Cloud - Devops</span>
+			
+			<!-- navigation menu -->
+			<nav>
+				<ul class="vertical-menu scrollspy">
+					<li><a href="index.html#home" class="active"><i class="icon-home"></i>Home</a></li>
+					<li><a href="index.html#about"><i class="icon-user"></i>About</a></li>
+					<li><a href="index.html#skills"><i class="icon-bulb"></i>Skills</a></li>
+					<li><a href="index.html#edu-exp"><i class="fa-regular fa-building"></i>Education & Experience</a></li>
+					<li><a href="index.html#portfolio"><i class="icon-grid"></i>Portfolio</a></li>
+					<li><a href="index.html#contact"><i class="icon-phone"></i>Contact</a></li>
+				</ul>
+			</nav>
+			
+			<!-- footer -->
+			<div class="footer mt-auto">
+
+				<!-- social icons -->
+				<ul class="social-icons list-inline">
+					<li class="list-inline-item"><a href="https://github.com/gskumar-lab"><i class="fab fa-github"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/santhoshkumar-gskumar"><i class="fab fa-linkedin"></i></a></li>
+				</ul>
+
+				<!-- dark mode toggle -->
+				<button id="dark-mode-toggle" class="btn btn-sm btn-light">
+
+					<i class="fas fa-moon"></i>
+				</button>
+
+				<!-- copyright -->
+				<span class="copyright">© 2025 GSK</span>
+			</div>
+		</div>
+	</header>
+
+	<!-- main content area -->
+<main class="content float-right">
+
+    <!-- single portfolio -->
+    <section class="single-portfolio background-white rounded padding-50 shadow-blue mt-0">
+        <h2 class="archive-header">Three-Tier Architecture on AWS using Terraform</h2>
+
+
+            <li class="list-inline-item"><i class="icon-layers"></i><strong> Tech Stack:</strong> Terraform, AWS (EC2, VPC, IAM, RDS - Mysql, R53, Cloudfront, S3, AWS backup, NAT Gateway)</li>
+
+
+        <div class="spacer" data-height="40"></div>
+
+        <!-- Buttons -->
+			<div class="d-flex flex-wrap justify-content-center gap-3">
+
+			<a href="https://github.com/gskumar-lab/3-tier-app-infra-terraform" target="_blank" class="btn btn-primary m-2">
+				<i class="fab fa-github mr-2"></i> view on GitHub
+			</a>
+
+			<a href="https://www.gskumar.tech/" target="_blank" class="btn btn-default m-2">
+				<i class="fa-solid fa-laptop mr-2"></i> Demo link
+			</a>
+
+			</div>
+
+        <div class="spacer" data-height="40"></div>
+
+        <!-- portfolio image -->
+        <img src="images/portfolio/3.jpg" alt="Three-Tier Architecture on AWS using Terraform">
+
+        <!-- portfolio content -->
+        <div class="portfolio-content mt-5">
+            <h3>Overview</h3>
+            <p>This project implements a production-grade three-tier architecture on AWS using Infrastructure as Code with Terraform. The solution addresses the need for highly available, scalable, and secure cloud infrastructure with built-in disaster recovery capabilities. The architecture separates concerns across web, application, and database tiers while implementing security best practices like private subnets, bastion hosts, and IAM role-based access.</p>
+
+            <!--
+            <div class="spacer" data-height="40"></div>
+			-->
+			<div class="project-features">
+				<h3>Key Features</h3>
+				<ul>
+				<li><strong>High Availability</strong>: Deployed across 2 Availability Zones with auto-scaling capabilities</li>
+				<li><strong>Disaster Recovery</strong>: Implemented in a secondary region using AWS Backup, CloudFront, and Route53</li>
+				<li><strong>Secure Access</strong>: Private subnets with controlled access via Bastion Host and IAM roles</li>
+				<li><strong>Automated Backups</strong>: Regular snapshots and backups using AWS Backup service</li>
+				<li><strong>Infrastructure as Code</strong>: Fully reproducible environment defined in Terraform</li>
+				</ul>
+			</div>
+
+            <h3>Architecture Diagram</h3>
+            <img src="images/portfolio/architecture-3.jpg" alt="Three-Tier Architecture on AWS using Terraform">
+        </div>
+
+        <div class="spacer" data-height="40"></div>
+
+        <!-- Buttons -->
+		<div class="d-flex flex-wrap justify-content-center gap-3">
+
+		<a href="https://github.com/gskumar-lab/3-tier-app-infra-terraform" target="_blank" class="btn btn-primary m-2">
+			<i class="fab fa-github mr-2"></i> view on GitHub
+		</a>
+
+		<a href="https://www.gskumar.tech" target="_blank" class="btn btn-default m-2">
+			<i class="fa-solid fa-laptop mr-2"></i> Demo link
+		</a>
+
+		</div>
+
+    </section>
+
+</main>
+
+
+
+</div>
+
+
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/custom.js"></script>
+
+
+<script>
+  const toggle = document.getElementById('dark-mode-toggle');
+  const darkModeKey = 'dark-mode-enabled';
+
+  // initialize based on saved preference
+  if (localStorage.getItem(darkModeKey) === 'true') {
+    document.body.classList.add('dark-mode');
+    toggle.innerHTML = '<i class="fas fa-sun"></i>';
+  }
+
+  toggle.addEventListener('click', () => {
+    const isDark = document.body.classList.toggle('dark-mode');
+    localStorage.setItem(darkModeKey, isDark);
+    // swap icon
+    toggle.innerHTML = isDark
+      ? '<i class="fas fa-sun"></i>'
+      : '<i class="fas fa-moon"></i>';
+  });
+</script>
+
+</body>
+
+</html>
